@@ -21,12 +21,12 @@ Work in pairs to complete the following table:
 | “000”                 |     0    |  "000"    |   true    |
 | “1”                   |     1    |   "1"     |   true    |
 | NaN                   |    NaN   |  "NaN"    |   false   |
-| Infinity              |    NaN   |"Infinity" |   true    |
-| -Infinity             |    NaN   |"-Infinity"|   true    |
+| Infinity              | Infinity |"Infinity" |   true    |
+| -Infinity             |-Infinity |"-Infinity"|   true    |
 | “”                    |     0    |   ""      |   false   |
 | “20”                  |    20    |   "20"    |   true    |
 | “Twenty”              |    NaN   | "Twenty"  |   true    |
-| null                  |    NaN   |  "null"   |   false   |
+| null                  |     0    |  "null"   |   false   |
 | undefinited           |    NaN   |"undefined"|   false   |
 
 
